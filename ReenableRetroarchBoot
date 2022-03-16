@@ -1,4 +1,6 @@
 #!/bin/sh
-rm /media/data/local/home/.reenableretroarch/dontbootretroarch.flag
+LCONF_PATH=/media/data/local/home/.deepsleep
+NO_RA_FLAG=$LCONF_PATH/dontbootretroarch.flag
+rm $NO_RA_FLAG
 /sbin/poweroff
 
