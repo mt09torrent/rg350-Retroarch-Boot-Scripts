@@ -1,10 +1,10 @@
 #!/bin/sh
-# Place this in /usr/local/sbin
+# Place this in /media/data/local/sbin
 #Local conf path
 LCONF_PATH=/media/data/local/home/.deepsleep
 NO_RA_FLAG=$LCONF_PATH/dontbootretroarch.flag
 LAST_GAME=$LCONF_PATH/last_game.txt
-RA=/usr/local/bin/retroarch_rg350
+RA=/media/data/local/bin/retroarch_rg350
 
 if [ -e $NO_RA_FLAG ]; then
 	/usr/bin/gmenu2x
